@@ -1,9 +1,12 @@
-import express, { application } from "express";
-//import connectDatabase from './config/db';
+import express, { application } from 'express';
+import connectDatabase from './config/db';
 
 
 //initialize express application
 const app = express();
+
+//connect database
+connectDatabase();
 
 //api endpoints
 app.get('/', (req, res) =>
