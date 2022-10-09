@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://christcb:MATC2022!@cluster0.dxzwkj6.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://christcb:MATC2022!@cluster0.dxzwkj6.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSECRET": "maytheforcebewithyou"
 }
